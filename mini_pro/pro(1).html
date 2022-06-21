@@ -1,0 +1,162 @@
+<html>
+<title> ADD MARKS </title>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<style>
+body{
+background-color:rgb(58,58,58);
+background:linear-gradient(90deg,1b1b1b,rgb(49,49,49),#1b1b1b);
+color:white;
+
+}
+#l1 {
+   width: 150px;
+   display: inline-block;
+   text-align: center;
+   padding: 5px;
+   font-family:"Arial Black", Gadget, sans-serif;
+
+}
+#l2 {
+   width: 40px;
+   display: inline-block;
+   text-align: center;
+   font-family:"Arial Black", Gadget, sans-serif;
+}
+input[type=text] {
+   width: 150px;
+   display: inline-block;
+   text-align: center;
+}
+#i1{width: 200px;
+   display: inline-block;
+   text-align: center;}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 25px;
+  font-family: Impact,sans-serif;
+  padding: 10px;
+  margin: 8px 0;
+  border: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  display:inline-block;
+}
+.test{
+margin:3px;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.button {
+	float:right;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+   margin-right: 0;
+   margin-left:auto;
+}
+</style>
+
+
+<body style="text-align:center;">
+	<button class="button" onclick="return cancleme()">cancle</button>
+	
+	<form method="POST" action="pro.php">
+	
+	<label id="l1"> Student Name: </label>
+	<input type="text" id="i1" name="SNAME"><br> 
+	<label id="l1"> Roll No.:</label>
+	<input type="text" id="i1" name="ROLLN"> </input>
+
+	<div >
+	<h2> Term Test Marks </h2>
+	<label id="l2"> CO1: </label>
+	<input class="test" type="text" name="CO1"> </input> 
+	<label id="l2"> CO3:</label>
+	<input class="test" type="text" name="CO3"> </input><br>
+	<label id="l2">CO2:</label>
+	<input class="test" type="text" name="CO2"> </input>
+	<label id="l2"> CO4: </label>
+	<input class="test" type="text" name="CO4"> </input><br>
+
+ 
+	<h2> QUIZES</h2>
+	<label id="l2"> 1: </label>
+	<input class="test" type="text" name="QUIZ1"> </input> 
+	<label id="l2"> 3:</label>
+	<input class="test" type="text" name="QUIZ3"> </input><br>
+	<label id="l2"> 2:</label>
+	<input class="test" type="text" name="QUIZ2"> </input>
+	<label id="l2"> 4: </label>
+	<input class="test" type="text" name="QUIZ4"> </input>
+	</div>
+	<h2> ASSIGNMENTS </h2>
+	<label id="l2"> 1: </label>
+	<input class="test" type="text" name="ASS1"> </input> 
+	<label id="l2"> 3:</label>
+	<input class="test" type="text" name="ASS3"> </input><br>
+	<label id="l2"> 2:</label>
+	<input class="test" type="text" name="ASS2"> </input>
+	<label id="l2"> 4: </label>
+	<input class="test" type="text" name="ASS4"> </input>
+
+	<h2> EXPERIMENTS </h2>
+	<label id="l2"> 1: </label>
+	<input class="test" type="text" name="E1" > </input> 
+	<label id="l2"> 2:</label>
+	<input class="test" type="text" name="E2" > </input>
+	<label id="l2"> 3:</label>
+	<input class="test" type="text" name="E3"> </input>
+	<label id="l2"> 4: </label>
+	<input class="test" type="text" name="E4"> </input><br>
+	<label id="l2"> 5: </label>
+	<input class="test" type="text" name="E5"> </input> 
+	<label id="l2"> 6:</label>
+	<input class="test" type="text" name="E6"> </input>
+	<label id="l2"> 7:</label>
+	<input class="test" type="text" name="E7"> </input>
+	<label id="l2"> 8: </label>
+	<input class="test" type="text" name="E8"> </input><br>
+	<label id="l2"> 9: </label>
+	<input class="test" type="text" name="E9"> </input> 
+	<label id="l2"> 10:</label>
+	<input class="test" type="text" name="E10"> </input>
+	<label id="l2"> 11:</label>
+	<input class="test" type="text"name="E11"> </input>
+	<label id="l2"> 12: </label>
+	<input class="test" type="text" name="E12"> </input><br>
+	<label id="l2"> 13: </label>
+	<input class="test" type="text" name="E13"> </input>
+	<label id="l2"> 14: </label>
+	<input class="test" type="text" name="E14"> </input>
+	<label id="l2"> 15: </label>
+	<input class="test" type="text" name="E15"> </input>
+	<label id="l2"> 16: </label>
+	<input class="test" type="text" name="E16"> </input><br>
+	
+	<input type="submit" value="ADD">
+</form>
+
+
+<script type="text/javascript">
+function cancleme(){
+	
+ window.location ="buttons.php";
+ }
+ 
+  </script>
+</body>
+</html>
