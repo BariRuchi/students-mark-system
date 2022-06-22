@@ -1,3 +1,3 @@
 # students-mark-system
-Here teachers can enter,modify,delete marks of students and can see the average marks of the entire class in that .
-In this code we use HTML , CSS , JS , JQuery and PHP.
+
+Student marks System is a web application which helps teachers to creating final report cards (Results) based on the marks they submit. The MU Syllabus is the main emphasis of this application. We are producing the results of the students in accordance with MU rules. The teacher can enter marks and examine the class's average scores in a specific topic or across all subjects. they are able to produce student results. Additionally, if the curriculum changes for a specific year, they might add new subjects. By comparing a student's outcome to a prior year's result, they may assess if they have made any development. For student use: by entering their roll number and name, they may view their grades for all subjects, termwork grades, results, and class average.
